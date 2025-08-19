@@ -37,7 +37,7 @@ public class UsuarioService implements IUsuarioService {
     private UsuarioDTO convertToDTO(Usuario user){
         return new UsuarioDTO(user.getId(),
                 user.getNombre(),
-                user.getUsuario(),
+                user.getUsername(),
                 user.isActivo(),
                 new RoleDTO(
                         user.getRole().getId(),

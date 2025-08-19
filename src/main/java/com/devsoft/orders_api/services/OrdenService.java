@@ -11,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.swing.text.html.Option;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -28,7 +27,7 @@ public class OrdenService implements IOrdenService {
     @Autowired
     private MesaRepository mesaRepository;
     @Autowired
-    private UsuarioRepository usuarioRepository;
+    private UsuarioRepository userRepository;
     @Autowired
     private MenuRepository menuRepository;
 
@@ -60,7 +59,7 @@ public class OrdenService implements IOrdenService {
         //validamos referencias de objetos
         Optional<Cliente> clienteOpt = clienteRepository.findById(ordenDTO.getClienteDTO().getId());
         Optional<Mesa> mesaOpt = mesaRepository.findById(ordenDTO.getMesaDTO().getId());
-        Optional<Usuario> userOpt = usuarioRepository.findById(ordenDTO.getUsuarioDTO().getId());
+        Optional<Usuario> userOpt = userRepository.findById(ordenDTO.getUsuarioDTO().getId());
         if (clienteOpt.isEmpty() || mesaOpt.isEmpty() || userOpt.isEmpty()
                 || ordenDTO.getDetalle() == null || ordenDTO.getDetalle().isEmpty()){
             return null; //gestionar en el controlador

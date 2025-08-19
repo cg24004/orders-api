@@ -23,8 +23,8 @@ public class Usuario implements Serializable {
     private Long id;
     @Column(name = "nombre", nullable = false, length = 80)
     private String nombre;
-    @Column(name = "usuario", nullable = false, length = 30)
-    private String usuario;
+    @Column(name = "username", nullable = false, length = 30)
+    private String username;
     @Column(name = "password", nullable = false, length = 100)
     private String password;
     @Column(name = "activo", columnDefinition = "boolean default true")
