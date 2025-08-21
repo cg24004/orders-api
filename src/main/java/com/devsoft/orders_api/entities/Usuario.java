@@ -9,10 +9,10 @@ import lombok.Setter;
 import java.io.Serial;
 import java.io.Serializable;
 
-@Setter
 @Getter
-@NoArgsConstructor
+@Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name = "usuarios", schema = "public", catalog = "orders")
 public class Usuario implements Serializable {
@@ -23,13 +23,13 @@ public class Usuario implements Serializable {
     private Long id;
     @Column(name = "nombre", nullable = false, length = 80)
     private String nombre;
-    @Column(name = "usuario", nullable = false, length = 30)
-    private String usuario;
-    @Column(name = "password", nullable = false, length = 100)
+    @Column(name = "username", nullable = false, length = 30)
+    private String username;
+    @Column(name = "password", nullable = false, length = 250)
     private String password;
     @Column(name = "activo", columnDefinition = "boolean default true")
     private boolean activo;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "role_id", referencedColumnName = "id", nullable = false)
+    @JoinColumn(name = "role_id", nullable = false, referencedColumnName = "id")
     private Role role;
 }

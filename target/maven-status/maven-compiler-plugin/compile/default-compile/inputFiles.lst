@@ -1,45 +1,53 @@
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\controllers\CategoriaController.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\controllers\ClienteController.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\controllers\MenuController.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\controllers\MesaController.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\controllers\OrdenController.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\controllers\UsuarioController.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\dto\CategoriaDTO.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\dto\ClienteDTO.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\dto\DetalleOrdenDTO.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\dto\MenuDTO.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\dto\MesaDTO.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\dto\OrdenDTO.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\dto\RoleDTO.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\dto\UsuarioDTO.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\entities\Categoria.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\entities\Cliente.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\entities\DetalleOrden.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\entities\Menu.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\entities\Mesa.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\entities\Orden.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\entities\Role.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\entities\Usuario.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\interfaces\ICategoriaService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IClienteService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IMenuService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IMesaService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IOrdenService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IUsuarioService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\OrdersApiApplication.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\repository\CategoriaRepository.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\repository\ClienteRepository.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\repository\DetalleOrdenRepository.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\repository\MenuRepository.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\repository\MesaRepository.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\repository\OrdenRepository.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\repository\UsuarioRepository.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\services\CategoriaService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\services\ClienteService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\services\MenuService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\services\MesaService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\services\OrdenService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\services\UsuarioService.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\utils\EstadoOrden.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\utils\MenuMapper.java
-C:\Users\ernes\Documents\MÓDULOS\Construcción de Aplicaciones Web en JSP\dev API´s\orders-api\src\main\java\com\devsoft\orders_api\utils\OrdenMapper.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\auth\AuthController.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\auth\dto\JwtResponse.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\auth\dto\LoginDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\auth\dto\RegisterDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\controllers\CategoriaController.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\controllers\ClienteController.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\controllers\MenuController.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\controllers\MesaController.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\controllers\OrdenController.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\controllers\UsuarioController.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\dto\CategoriaDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\dto\ClienteDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\dto\DetalleOrdenDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\dto\MenuDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\dto\MesaDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\dto\OrdenDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\dto\RoleDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\dto\UsuarioDTO.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\entities\Categoria.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\entities\Cliente.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\entities\DetalleOrden.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\entities\Menu.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\entities\Mesa.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\entities\Orden.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\entities\Role.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\entities\Usuario.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\interfaces\ICategoriaService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IClienteService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IMenuService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IMesaService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IOrdenService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\interfaces\IUsuarioService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\OrdersApiApplication.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\repository\CategoriaRepository.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\repository\ClienteRepository.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\repository\DetalleOrdenRepository.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\repository\MenuRepository.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\repository\MesaRepository.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\repository\OrdenRepository.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\repository\RoleRepository.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\repository\UserRepository.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\security\AuthService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\security\JwtService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\security\SecurityConfig.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\services\CategoriaService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\services\ClienteService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\services\MenuService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\services\MesaService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\services\OrdenService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\services\UsuarioService.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\utils\EstadoOrden.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\utils\MenuMapper.java
+C:\Users\soyma\OneDrive\Documentos\dev-api\orders-api\src\main\java\com\devsoft\orders_api\utils\OrdenMapper.java
