@@ -4,7 +4,7 @@ import com.devsoft.orders_api.dto.RoleDTO;
 import com.devsoft.orders_api.dto.UsuarioDTO;
 import com.devsoft.orders_api.entities.Usuario;
 import com.devsoft.orders_api.interfaces.IUsuarioService;
-import com.devsoft.orders_api.repository.UsuarioRepository;
+import com.devsoft.orders_api.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,12 +16,12 @@ import java.util.stream.Collectors;
 public class UsuarioService implements IUsuarioService {
 
     @Autowired
-    private UsuarioRepository usuarioRepository;
+    private UserRepository userRepository;
 
     @Override
     @Transactional(readOnly = true)
     public List<UsuarioDTO> findAll() {
-        return usuarioRepository.findAll().stream()
+        return userRepository.findAll().stream()
                 .map(this::convertToDTO)
                 .collect(Collectors.toList());
     }
@@ -29,7 +29,7 @@ public class UsuarioService implements IUsuarioService {
     @Override
     @Transactional(readOnly = true)
     public UsuarioDTO findById(Long id) {
-        Usuario user = usuarioRepository.findById(id).orElse(null);
+        Usuario user = userRepository.findById(id).orElse(null);
         if (user== null) return null;
         return convertToDTO(user);
     }

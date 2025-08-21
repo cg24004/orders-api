@@ -27,7 +27,7 @@ public class OrdenService implements IOrdenService {
     @Autowired
     private MesaRepository mesaRepository;
     @Autowired
-    private UsuarioRepository userRepository;
+    private UserRepository userRepository;
     @Autowired
     private MenuRepository menuRepository;
 

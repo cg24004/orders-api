@@ -1,6 +1,5 @@
 package com.devsoft.orders_api.utils;
 
-
 import com.devsoft.orders_api.dto.*;
 import com.devsoft.orders_api.entities.Orden;
 
@@ -35,7 +34,7 @@ public class OrdenMapper {
         dto.setUsuarioDTO(new UsuarioDTO(
                 orden.getUsuario().getId(),
                 orden.getUsuario().getNombre(),
-                orden.getUsuario().getUsuario(),
+                orden.getUsuario().getUsername(),
                 orden.getUsuario().isActivo(),
                 new RoleDTO(
                         orden.getUsuario().getRole().getId(),
